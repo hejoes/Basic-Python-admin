@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coordinates converter hejoes</title>
+  </head>
+  <body>
+    <h1>Coordinates converter made by hejoes</h1>
+    <h2>EST97 to WGS84</h2>
+    <form action="/est_to_wgs" method="post">
+      <label for="est97_x">EST97 X:</label>
+      <input type="text" id="est97_x" name="est97_x" /><br /><br />
+
+      <label for="est97_y">EST97 Y:</label>
+      <input type="text" id="est97_y" name="est97_y" /><br /><br />
+
+      <input type="submit" value="Konverteeri" />
+    </form>
+    <br />
+    <hr />
+
+    <h2>WGS84 to EST97</h2>
+    <form action="/wgs_to_est" method="post">
+      <label for="wgs84_x">WGS84 Latitude:</label>
+      <input type="text" id="wgs84_x" name="wgs84_x" /><br /><br />
+      <label for="wgs84_y">WGS84 Longitude:</label>
+      <input type="text" id="wgs84_y" name="wgs84_y" /><br /><br />
+      <input type="submit" value="Konverteeri" />
+    </form>
+  </body>
+</html>
